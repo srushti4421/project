@@ -1,28 +1,31 @@
-body{
-    font-family: Arial,sans-serif;
-    margin:0;
-    padding:0;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f4f4f9;
+*{
+    font-family:'segon ui',Tahona,genva,verdana,sans-serf;
+    font-size:20px;
 }
-.counter-container{
-    text-align: center;
-    background: white;
-    padding: 20px 40px;
-    border-radius: 10px; 
+#list{
+    color:green;
 }
-#increase{
-    background-color:#4caf50;
-    color:white;
+.list1{
+    color:brown;
 }
-#decrease{
-    background-color: #f44336;
-    color:white;
+.ul1{
+background-color: red;
+color:white;
+width:25%;
+padding: 10px;
+margin: 20px;
+border: 5px solid black;
+border-radius: 10px;
+transition: 0.5 ease-in-out;
 }
-.reset{
-    background-color: #2196f3;
-    color: white;
+.ul1:hover{
+    background-color: green;
+    border: 1px solid black;
+}
+ul1 ol l1{
+    font-size: 20px;
+    font-weight:700;
+}
+table,th,td{
+    border: 1px solid black;
 }
